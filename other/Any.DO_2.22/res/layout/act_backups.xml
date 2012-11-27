@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/notesLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?anydoLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sharingUpperPanel" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/upButton" android:background="?itemSelector" android:paddingLeft="10.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="?upButton" android:scaleType="center" android:onClick="upButton" />
+        <TextView android:id="@id/backupsTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/backups" style="?shareTitle" />
+    </LinearLayout>
+    <View android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <ListView android:id="@id/backupsListView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:choiceMode="multipleChoice" android:layout_weight="1.0" style="?shareFriendsList" />
+    <View android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="78.0dip">
+        <Button android:layout_gravity="center_vertical" android:id="@id/backupNow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/backup_now" android:drawableTop="@drawable/backup_now" style="?anydoButton" />
+    </LinearLayout>
+</LinearLayout>

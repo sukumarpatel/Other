@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/firstUXColorChooser" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="40.0sp" android:textColor="@color/icons_wh" android:id="@id/colorChooserTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/first_use_color_choose_title" />
+    <TextView android:textSize="17.0sp" android:textColor="@color/general_text_wh" android:id="@id/colorChooserComment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/first_use_color_choose_comment" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:id="@id/white" android:background="@drawable/circle_white_unselected" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+            <View android:id="@id/selectAni" android:background="@drawable/circle_selected" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+            <View android:id="@id/black" android:background="@drawable/circle_black_unselected" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="15.0dip" android:layout_toRightOf="@id/white" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

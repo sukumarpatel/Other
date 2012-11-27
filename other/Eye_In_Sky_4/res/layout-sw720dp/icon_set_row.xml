@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/row_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_line" android:background="@color/line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="10.0dip" />
+        <View android:background="#ff000000" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/details" android:paddingLeft="25.0dip" android:paddingTop="10.0dip" android:paddingRight="25.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="18.0sp" android:textColor="#ff888888" android:id="@id/author" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="18.0sp" android:autoLink="web" android:id="@id/url" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/icons" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/icon_sun" android:layout_width="100.0dip" android:layout_height="100.0dip" android:scaleType="centerInside" android:adjustViewBounds="true" />
+                <ImageView android:id="@id/icon_cloud" android:layout_width="100.0dip" android:layout_height="100.0dip" android:scaleType="centerInside" android:adjustViewBounds="true" />
+                <ImageView android:id="@id/icon_rain" android:layout_width="100.0dip" android:layout_height="100.0dip" android:scaleType="centerInside" android:adjustViewBounds="true" />
+                <ImageView android:id="@id/icon_moon" android:layout_width="100.0dip" android:layout_height="100.0dip" android:scaleType="centerInside" android:adjustViewBounds="true" />
+                <ImageView android:id="@id/icon_storms" android:layout_width="100.0dip" android:layout_height="100.0dip" android:scaleType="centerInside" android:adjustViewBounds="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/bottom_line" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

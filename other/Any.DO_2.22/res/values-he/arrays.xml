@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekStartDaysNames">
+        <item>"יום א'"</item>
+        <item>"יום ב'"</item>
+        <item>"יום ש'"</item>
+    </string-array>
+    <integer-array name="weekStartDaysIds">
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="taskRepeat">
+        <item>פעם אחת</item>
+        <item>פעם ביום</item>
+        <item>פעם בשבוע</item>
+        <item>פעם בחודש</item>
+    </string-array>
+    <integer-array name="taskRepeatValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="alarmOffset">
+        <item>כבוי</item>
+        <item>בזמן</item>
+        <item>5 דקות לפני</item>
+        <item>10 דקות לפני</item>
+        <item>30 דקות לפני</item>
+        <item>שעה לפני</item>
+    </string-array>
+    <integer-array name="alarmOffsetValues">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </integer-array>
+    <string-array name="months_short">
+        <item>ינו</item>
+        <item>פבר</item>
+        <item>מרץ</item>
+        <item>אפר</item>
+        <item>מאי</item>
+        <item>יונ</item>
+        <item>יול</item>
+        <item>אוג</item>
+        <item>ספט</item>
+        <item>אוק</item>
+        <item>נוב</item>
+        <item>דצמ</item>
+    </string-array>
+    <string-array name="autocomplete_recognized_actions">
+        <item>להתקשר</item>
+        <item>לפגוש</item>
+        <item>לדבר עם</item>
+        <item>לשוחח עם</item>
+        <item>התכתב</item>
+        <item>דואר</item>
+        <item>דואר אלקטרוני</item>
+    </string-array>
+    <string-array name="autocomplete_suggested_actions">
+        <item>להתקשר</item>
+        <item>לפגוש</item>
+        <item>התכתב</item>
+        <item>דואר אלקטרוני</item>
+    </string-array>
+    <string-array name="empty_list_strings">
+        <item>מזל טוב, סיימת!</item>
+        <item>מדהים! סיימת!</item>
+        <item>אתה כל כך אדיר!</item>
+        <item>פששש מרשים!</item>
+        <item>תמשיך כך!</item>
+        <item>עבודה מעולה!</item>
+        <item>יש לך כוחות על?</item>
+        <item>איך הספקת את הכל?</item>
+        <item>מדהים, סיימת!</item>
+    </string-array>
+</resources>

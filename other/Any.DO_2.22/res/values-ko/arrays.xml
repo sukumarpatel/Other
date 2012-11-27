@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekStartDaysNames">
+        <item>일</item>
+        <item>월</item>
+        <item>토요일</item>
+    </string-array>
+    <integer-array name="weekStartDaysIds">
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="taskRepeat">
+        <item>1회</item>
+        <item>매일</item>
+        <item>매주</item>
+        <item>매월</item>
+    </string-array>
+    <integer-array name="taskRepeatValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="alarmOffset">
+        <item>끔</item>
+        <item>정시</item>
+        <item>5분 전</item>
+        <item>10분 전</item>
+        <item>30분 전</item>
+        <item>1시간 전</item>
+    </string-array>
+    <integer-array name="alarmOffsetValues">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </integer-array>
+    <string-array name="months_short">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+    <string-array name="autocomplete_recognized_actions">
+        <item>전화</item>
+        <item>회의</item>
+        <item>통화</item>
+        <item>말하기</item>
+        <item>문자</item>
+        <item>메일</item>
+        <item>이메일</item>
+    </string-array>
+    <string-array name="autocomplete_suggested_actions">
+        <item>전화</item>
+        <item>회의</item>
+        <item>문자</item>
+        <item>이메일</item>
+    </string-array>
+    <string-array name="empty_list_strings">
+        <item>축하합니다. 다 되었습니다!</item>
+        <item>우후! 다 되었습니다!</item>
+        <item>정말 멋집니다!</item>
+        <item>인상적이에요!</item>
+        <item>계속 노력하세요!</item>
+        <item>잘하셨어요!</item>
+        <item>초능력을 갖고 계세요?</item>
+        <item>어떻게 전부 하셨어요?</item>
+        <item>놀라워요. 다 끝내셨어요!</item>
+    </string-array>
+</resources>

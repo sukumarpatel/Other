@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/widget_big_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_minimal_main_layout" android:background="@drawable/widget_bg_wh" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:layout_gravity="center" android:id="@id/micBtn" android:background="@null" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/selector_mic_small_wh" android:layout_weight="1.0" />
+        <ImageView android:id="@id/divider" android:background="@color/widget_divider_wh" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+        <ImageButton android:layout_gravity="center" android:id="@id/addBtn" android:background="@null" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/category_add" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

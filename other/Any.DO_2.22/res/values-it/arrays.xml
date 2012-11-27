@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekStartDaysNames">
+        <item>DOM</item>
+        <item>LUN</item>
+        <item>SAB</item>
+    </string-array>
+    <integer-array name="weekStartDaysIds">
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="taskRepeat">
+        <item>una volta</item>
+        <item>una volta al giorno</item>
+        <item>una volta alla settimana</item>
+        <item>una volta al mese</item>
+    </string-array>
+    <integer-array name="taskRepeatValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="alarmOffset">
+        <item>non attivo</item>
+        <item>puntuale</item>
+        <item>5 min. prima</item>
+        <item>10 min. prima</item>
+        <item>30 min. prima</item>
+        <item>1 ora prima</item>
+    </string-array>
+    <integer-array name="alarmOffsetValues">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </integer-array>
+    <string-array name="months_short">
+        <item>Gen</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>Mag</item>
+        <item>Giu</item>
+        <item>Lug</item>
+        <item>Ago</item>
+        <item>Set</item>
+        <item>Ott</item>
+        <item>Nov</item>
+        <item>Dic</item>
+    </string-array>
+    <string-array name="autocomplete_recognized_actions">
+        <item>chiama</item>
+        <item>incontra</item>
+        <item>chiama</item>
+        <item>chiama</item>
+        <item>SMS</item>
+        <item>e-mail</item>
+        <item>e-mail</item>
+    </string-array>
+    <string-array name="autocomplete_suggested_actions">
+        <item>chiama</item>
+        <item>incontra</item>
+        <item>SMS</item>
+        <item>e-mail</item>
+    </string-array>
+    <string-array name="empty_list_strings">
+        <item>"Congratulazioni, ce l'hai fatta!"</item>
+        <item>"Evviva! Ce l'hai fatta!"</item>
+        <item>Fantastico!</item>
+        <item>Stupefacente!</item>
+        <item>Continua così!</item>
+        <item>Ottimo lavoro!</item>
+        <item>Hai dei superpoteri?</item>
+        <item>Come hai fatto a fare tutto?</item>
+        <item>Incredibile, hai finito!</item>
+    </string-array>
+</resources>

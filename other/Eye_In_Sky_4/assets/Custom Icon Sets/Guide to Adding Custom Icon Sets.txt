@@ -1,0 +1,22 @@
+GUIDE TO ADDING A CUSTOM ICON SET TO EYE IN SKY
+
+This guide covers how to add a custom icon set to Eye In Sky.
+
+An example icon set is already packaged with the application. The example icon set is called Sticky, and can be found under:
+
+/mnt/sdcard/Android/data/com.citc.weather/Custom Icon Sets/Sticky
+
+You will need to create another folder under Custom Icon Sets which will contain your own icon set.
+The name of the folder will be used in the application as the name of your icon set.
+Inside the Sticky folder you can see it contains all the icons as well as a map.txt.
+The file map.txt is what maps the icons to the weather codes.
+It also provides the name of the author of the icon set and an attribution url.
+You will need to populate map.txt with your own mappings between the filenames of your icons and the weather codes of the application.
+All entries in map.txt in the Sticky example icon set will also be required in your icon set.
+Every weather code has both a day and a night version, although it is up to you whether you use different icons or the same ones for day and night weather.
+For example in Sticky there is an icon 39.png which is used for the weather code CHANCE_OF_RAIN_D.
+In your icon set the image might be called light_rain.png in which case your map.txt should contain:
+
+CHANCE_OF_RAIN_D=light_rain.png
+
+Also you should add a .nomedia to your custom icon set so that the icons don’t start appearing in your photo gallery.

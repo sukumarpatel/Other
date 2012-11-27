@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekStartDaysNames">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周六</item>
+    </string-array>
+    <integer-array name="weekStartDaysIds">
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="taskRepeat">
+        <item>一次</item>
+        <item>每天</item>
+        <item>每周</item>
+        <item>每月</item>
+    </string-array>
+    <integer-array name="taskRepeatValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="alarmOffset">
+        <item>关</item>
+        <item>准时</item>
+        <item>前5分钟</item>
+        <item>前10分钟</item>
+        <item>前30分钟</item>
+        <item>前1小时</item>
+    </string-array>
+    <integer-array name="alarmOffsetValues">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </integer-array>
+    <string-array name="months_short">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string-array name="autocomplete_recognized_actions">
+        <item>呼叫</item>
+        <item>会见</item>
+        <item>通话</item>
+        <item>通话</item>
+        <item>发短信</item>
+        <item>发邮件</item>
+        <item>发邮件</item>
+    </string-array>
+    <string-array name="autocomplete_suggested_actions">
+        <item>呼叫</item>
+        <item>会见</item>
+        <item>发短信</item>
+        <item>发邮件</item>
+    </string-array>
+    <string-array name="empty_list_strings">
+        <item>恭喜，你完成了!</item>
+        <item>Woohoo! 你完成了!</item>
+        <item>你真棒!</item>
+        <item>令人吃惊!</item>
+        <item>继续坚持!</item>
+        <item>干得好!</item>
+        <item>你有超级能力吗?</item>
+        <item>你是怎么都做到的?</item>
+        <item>太棒了，你完成了!</item>
+    </string-array>
+</resources>

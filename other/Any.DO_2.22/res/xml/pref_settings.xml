@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:anydo="http://schemas.android.com/apk/res/com.anydo">
+    <com.anydo.ui.preferences.MenuPreferenceCategory android:title="" android:key="settingsCategory">
+        <com.anydo.ui.preferences.ReferencePreference android:key="folders" anydo:icon="@null" anydo:title="@string/settings_folders" />
+        <com.anydo.ui.preferences.ColorSelectPreference android:key="theme" anydo:icon="@null" anydo:title="@string/settings_theme" />
+        <com.anydo.ui.preferences.TogglePreference android:key="notificationWidget" anydo:icon="@null" anydo:title="@string/settings_notification_widget" anydo:textLeft="@string/show" anydo:textRight="@string/hide" anydo:selectorDefault="true" />
+        <com.anydo.ui.preferences.TogglePreference android:key="postMeeting" anydo:icon="@null" anydo:title="@string/settings_post_meetings" anydo:textLeft="@string/ON" anydo:textRight="@string/OFF" anydo:selectorDefault="true" />
+        <com.anydo.ui.preferences.TogglePreference android:key="missedCall" anydo:icon="@null" anydo:title="@string/settings_missed_call" anydo:textLeft="@string/ON" anydo:textRight="@string/OFF" />
+        <com.anydo.ui.preferences.TogglePreference android:key="shake" anydo:icon="@null" anydo:title="@string/settings_shake" anydo:textLeft="@string/ON" anydo:textRight="@string/OFF" />
+        <com.anydo.ui.preferences.ToggleMultiPreference android:key="weekStartDay" anydo:icon="@null" anydo:title="@string/settings_calendar_first_day" anydo:noColorChange="true" anydo:valuesNames="@array/weekStartDaysNames" anydo:valuesIds="@array/weekStartDaysIds" />
+        <com.anydo.ui.preferences.ReferencePreference android:key="lang" anydo:icon="@null" anydo:title="@string/settings_lang" />
+        <com.anydo.ui.preferences.ReferencePreference android:key="done" anydo:icon="@null" anydo:title="@string/settings_done" />
+        <com.anydo.ui.preferences.ReferencePreference android:key="notificationSound" anydo:icon="@null" anydo:title="@string/settings_notification_sound" />
+        <com.anydo.ui.preferences.ReferencePreference android:key="backups" anydo:icon="@null" anydo:title="@string/settings_backups" />
+        <com.anydo.ui.preferences.ReferencePreference android:key="signOut" anydo:icon="@null" anydo:title="@string/sync_anydo_sign_out" />
+    </com.anydo.ui.preferences.MenuPreferenceCategory>
+</PreferenceScreen>

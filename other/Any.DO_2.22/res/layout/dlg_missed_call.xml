@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/folderChooseLayout" android:background="?dlgBackground" android:layout_width="275.0dip" android:layout_height="wrap_content" android:minWidth="275.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/header" android:paddingLeft="15.0dip" android:paddingTop="20.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/contactPic" android:layout_width="50.0dip" android:layout_height="60.0dip" android:src="@drawable/contact_avatar" android:scaleType="centerInside" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="36.0sp" android:textColor="?dlgMissedCallTitleColor" android:gravity="bottom|right|center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/missed_call" android:layout_toRightOf="@id/contactPic" android:layout_alignParentTop="true" />
+        <TextView android:textSize="15.0sp" android:gravity="bottom|right|center" android:id="@id/comment" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/missed_call_comment" android:layout_toRightOf="@id/contactPic" android:layout_below="@id/title" android:layout_alignBaseline="@id/contactPic" />
+    </RelativeLayout>
+    <View android:background="?anydoSeparatorColor" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <include android:id="@id/callNow" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" layout="@layout/preference_reference" />
+    <View android:background="?anydoSeparatorColor" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <include android:id="@id/callLater" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" layout="@layout/preference_reference" />
+    <View android:background="?anydoSeparatorColor" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <include android:id="@id/ignore" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" layout="@layout/preference_reference" />
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekStartDaysNames">
+        <item>SO</item>
+        <item>MO</item>
+        <item>SA</item>
+    </string-array>
+    <integer-array name="weekStartDaysIds">
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="taskRepeat">
+        <item>einmal</item>
+        <item>einmal täglich</item>
+        <item>einmal pro Woche</item>
+        <item>einmal pro Monat</item>
+    </string-array>
+    <integer-array name="taskRepeatValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="alarmOffset">
+        <item>aus</item>
+        <item>rechtzeitig</item>
+        <item>5 Min. vorher</item>
+        <item>10 Min. vorher</item>
+        <item>30 Min. vorher</item>
+        <item>1 Std. vorher</item>
+    </string-array>
+    <integer-array name="alarmOffsetValues">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </integer-array>
+    <string-array name="months_short">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mär</item>
+        <item>Apr</item>
+        <item>Mai</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Dez</item>
+    </string-array>
+    <string-array name="autocomplete_recognized_actions">
+        <item>anrufen</item>
+        <item>treffen</item>
+        <item>reden mit</item>
+        <item>sprechen mit</item>
+        <item>SMS schreiben</item>
+        <item>Mail schreiben</item>
+        <item>E-Mail</item>
+    </string-array>
+    <string-array name="autocomplete_suggested_actions">
+        <item>anrufen</item>
+        <item>treffen</item>
+        <item>SMS schreiben</item>
+        <item>E-Mail</item>
+    </string-array>
+    <string-array name="empty_list_strings">
+        <item>Glückwunsch, du bist fertig!</item>
+        <item>Juchu! Du hast es geschafft!</item>
+        <item>Du bist so umwerfend!</item>
+        <item>Ich bin beeindruckt!</item>
+        <item>Mach so weiter!</item>
+        <item>Toll gemacht!</item>
+        <item>Hast du Superkräfte?</item>
+        <item>Wie hast du das alles gemacht?</item>
+        <item>Erstaunlich, du bist fertig!</item>
+    </string-array>
+</resources>

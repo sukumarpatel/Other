@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/widget_big_portrait" android:padding="@dimen/widget_big_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/widget_small_main_layout" android:background="@drawable/widget_bg_wh" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageButton android:id="@id/small_widget_button_mic" android:background="@null" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_mic_small_wh" android:scaleType="centerInside" />
+        <ImageView android:id="@id/divider1" android:background="@color/widget_divider_wh" android:layout_width="0.9dip" android:layout_height="fill_parent" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" />
+        <TextView android:textSize="14.0sp" android:typeface="sans" android:textColor="@color/small_widget_ticker_wh" android:ellipsize="end" android:gravity="center" android:id="@id/small_widget_ticker" android:paddingLeft="5.0dip" android:paddingRight="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Loading" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/divider2" android:background="@color/widget_divider_wh" android:layout_width="0.9dip" android:layout_height="fill_parent" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" />
+        <ImageButton android:id="@id/small_widget_button_add" android:background="@null" android:paddingLeft="7.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/selector_add_wh" android:scaleType="centerInside" />
+    </LinearLayout>
+</FrameLayout>

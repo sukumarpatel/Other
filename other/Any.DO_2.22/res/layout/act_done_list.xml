@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?anydoLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/doneHeader" android:background="?anydoDoneListBGColor" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/upButton" android:background="?itemSelector" android:paddingLeft="10.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="?upButtonDone" android:scaleType="center" android:onClick="upButton" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/doneListTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/done_list_title" style="?doneListTitle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/taskList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.anydo.ui.CrossView android:id="@id/crossView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.anydo.ui.list.DoneTaskListView android:id="@id/doneList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:groupIndicator="@null" android:childDivider="@null" android:choiceMode="multipleChoice" style="?doneListStyle" />
+        </com.anydo.ui.CrossView>
+    </LinearLayout>
+    <View android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <LinearLayout android:orientation="horizontal" android:background="?anydoThemeColor" android:layout_width="fill_parent" android:layout_height="78.0dip">
+        <Button android:layout_gravity="center_vertical" android:id="@id/deleteAll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/delete_all" android:drawableTop="@drawable/selector_delete_all" style="?anydoButton" />
+    </LinearLayout>
+</LinearLayout>

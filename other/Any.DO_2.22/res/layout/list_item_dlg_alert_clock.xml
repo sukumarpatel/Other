@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/alertCustomTime" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="33.0sp" android:id="@id/selectableItemName" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    <TextView android:textSize="18.0sp" android:id="@id/selectableItemComment" android:paddingLeft="15.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/alert_custom_time_explain" android:inputType="none" />
+    <com.anydo.ui.TimePicker android:layout_gravity="center_horizontal" android:id="@id/timePicker" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

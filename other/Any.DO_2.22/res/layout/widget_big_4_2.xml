@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/widget_big_portrait" android:padding="@dimen/widget_big_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_big_main_layout" android:background="@drawable/widget_bg_wh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/big_widget_header" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/big_widget_header_group_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_centerVertical="true" style="@style/widget_big_group_title" />
+            <TextView android:gravity="left|center" android:id="@id/big_widget_groupDate" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Loading" android:layout_weight="1.0" style="@style/widget_big_group_date" />
+            <ImageView android:id="@id/changeGroupArrow" android:background="@null" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/arrow_right" android:scaleType="center" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/bigWidgetTaskList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_weight="1.0">
+            <LinearLayout android:id="@id/big_widget_cell1_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/big_widget_task_priority1" android:visibility="invisible" android:layout_width="4.0dip" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" />
+                <TextView android:gravity="left|center" android:id="@id/big_widget_task_title1" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/widget_big_task_title" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/execLayout1" android:paddingRight="7.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/execBtnImg1" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:id="@id/execBtnText1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/widget_big_task_exec" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/big_widget_cell1_hidden_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:gravity="center_vertical" android:id="@id/big_widget_hidden_text1" android:paddingLeft="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mark_as_complete" android:layout_weight="1.0" style="@style/widget_big_task_title" />
+                <TextView android:gravity="center_vertical" android:id="@id/big_widget_hidden_ok1" android:paddingLeft="10.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/OK" style="@style/widget_big_task_complete_ok" />
+            </LinearLayout>
+            <ImageView android:id="@id/big_widget_divider_1_2" android:background="@color/widget_divider_wh" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+            <LinearLayout android:id="@id/big_widget_cell2_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/big_widget_task_priority2" android:visibility="invisible" android:layout_width="4.0dip" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" />
+                <TextView android:gravity="left|center" android:id="@id/big_widget_task_title2" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/widget_big_task_title" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/execLayout2" android:paddingRight="7.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/execBtnImg2" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:id="@id/execBtnText2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/widget_big_task_exec" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/big_widget_cell2_hidden_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:gravity="center_vertical" android:id="@id/big_widget_hidden_text2" android:paddingLeft="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mark_as_complete" android:layout_weight="1.0" style="@style/widget_big_task_title" />
+                <TextView android:gravity="center_vertical" android:id="@id/big_widget_hidden_ok2" android:paddingLeft="10.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/OK" style="@style/widget_big_task_complete_ok" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/buttons_upper_divider" android:background="@color/widget_divider_wh" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+        <LinearLayout android:id="@id/big_widget_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/big_widget_speak_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_mic_small_wh" android:layout_weight="1.0" style="@style/widget_big_button" />
+            <ImageView android:id="@id/buttons_divider1" android:background="@color/widget_divider_wh" android:layout_width="0.9dip" android:layout_height="fill_parent" />
+            <ImageButton android:id="@id/big_widget_up" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_arrow_up_wh" android:layout_weight="1.0" style="@style/widget_big_button" />
+            <ImageView android:id="@id/buttons_divider2" android:background="@color/widget_divider_wh" android:layout_width="0.9dip" android:layout_height="fill_parent" />
+            <ImageButton android:id="@id/big_widget_down" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_arrow_down_wh" android:layout_weight="1.0" style="@style/widget_big_button" />
+            <ImageView android:id="@id/buttons_divider3" android:background="@color/widget_divider_wh" android:layout_width="0.9dip" android:layout_height="fill_parent" />
+            <ImageButton android:id="@id/big_widget_add_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/selector_add_wh" android:layout_weight="1.0" style="@style/widget_big_button" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

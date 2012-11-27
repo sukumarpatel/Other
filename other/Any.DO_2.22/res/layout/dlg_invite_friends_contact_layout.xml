@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/inviteFriends" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/inviteContactImage" android:background="@*android:color/transparent" android:layout_width="50.0dip" android:layout_height="60.0dip" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/invite_X_Btn" android:paddingRight="-5.0dip" android:paddingBottom="-5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/contact_check" android:layout_alignRight="@id/inviteContactImage" android:layout_alignBottom="@id/inviteContactImage" />
+    <TextView android:textSize="14.0sp" android:id="@id/inviteContactName" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Udini" android:lines="1" android:layout_below="@id/inviteContactImage" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

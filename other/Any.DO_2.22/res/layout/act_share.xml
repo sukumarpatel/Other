@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.anydo.ui.LinearLayoutThatDetectsSoftKeyboard android:orientation="vertical" android:id="@id/shareLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?anydoLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sharingUpperPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/upButton" android:background="?itemSelector" android:paddingLeft="10.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="?upButton" android:scaleType="center" android:onClick="upButton" />
+        <TextView android:id="@id/shareTitle" android:paddingTop="2.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/invite_title" style="?shareTitle" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/shareHeader" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="7.0dip">
+        <com.anydo.ui.auto_complete.ContactsAutoCompleteTextView android:id="@id/contactsTxt" android:paddingLeft="18.0dip" android:paddingRight="43.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="43.0dip" android:hint="@string/add_contacts_to_share" android:completionThreshold="1" android:layout_weight="1.0" android:layout_centerVertical="true" android:inputType="textPersonName|textCapSentences" android:dropDownAnchor="@id/shareHeader" style="?anydoEditboxRounded" />
+        <ImageView android:id="@id/shareSearchImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/share_search_image" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/sharingDesriptionLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/shareCenterImage" android:paddingTop="50.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/share_center_thing" style="?shareFriendsList" />
+        <TextView android:gravity="center" android:id="@id/shareDescription" android:paddingLeft="50.0dip" android:paddingRight="50.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_explain" style="?shareCenterText" />
+        <ImageView android:id="@id/shareCenterImageBeam" android:paddingTop="30.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/share_beam" style="?shareFriendsList" />
+        <TextView android:gravity="center" android:id="@id/shareDescriptionBeam" android:paddingLeft="50.0dip" android:paddingRight="50.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_beam_explain" style="?shareCenterText" />
+    </LinearLayout>
+    <com.anydo.ui.list.FriendsListView android:id="@id/FriendListView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:choiceMode="multipleChoice" android:layout_weight="1.0" style="?shareFriendsList" />
+    <LinearLayout android:id="@id/SmsWarning" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="?warningColor" android:paddingLeft="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sms_warning" />
+    </LinearLayout>
+    <View android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttonsBar" android:layout_width="fill_parent" android:layout_height="78.0dip">
+        <Button android:textSize="33.0sp" android:layout_gravity="center_vertical" android:id="@id/shareSendToFriends" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Invite" android:drawableTop="@drawable/selector_share_add_icon" android:drawablePadding="-5.0dip" style="?anydoButton" />
+    </LinearLayout>
+</com.anydo.ui.LinearLayoutThatDetectsSoftKeyboard>

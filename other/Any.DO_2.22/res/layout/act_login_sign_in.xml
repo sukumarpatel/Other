@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroller" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewAnimator android:id="@id/title" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inAnimation="@anim/fade_in" android:outAnimation="@anim/fade_out" android:animateFirstView="false">
+            <TextView android:textSize="25.0sp" android:textColor="@color/dialog_title_wh" android:id="@id/title1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_signin" style="?shareTitle" />
+            <TextView android:textSize="25.0sp" android:textColor="@color/dialog_title_wh" android:id="@id/title2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_forgot" style="?shareTitle" />
+        </ViewAnimator>
+        <LinearLayout android:orientation="vertical" android:id="@id/fbLayout" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/fbConnect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/facebook_connect" />
+            <RelativeLayout android:id="@id/orLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                <View android:background="@color/anydo_separator_wh" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_centerVertical="true" />
+                <TextView android:textSize="15.0dip" android:textColor="@color/anydo_separator_wh" android:id="@id/orText" android:background="@color/theme_main_color_wh" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/or" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <EditText android:editTextStyle="@style/anydo_editbox_wh" android:textSize="17.0sp" android:textColor="@color/general_text_wh" android:textColorHint="@color/textbox_hint_text_wh" android:id="@id/login_email" android:background="@drawable/edittext_regular_bg_wh" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:minHeight="37.0dip" android:hint="@string/login_hint_user_email" android:singleLine="true" android:inputType="textEmailAddress" />
+        <EditText android:editTextStyle="@style/anydo_editbox_wh" android:textSize="17.0sp" android:textColor="@color/general_text_wh" android:textColorHint="@color/textbox_hint_text_wh" android:gravity="bottom" android:id="@id/password" android:background="@drawable/edittext_regular_bg_wh" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minHeight="37.0dip" android:hint="@string/login_hint_user_password" android:singleLine="true" android:inputType="textPassword" />
+        <TextView android:textSize="15.0sp" android:gravity="center" android:id="@id/login_hint" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Button android:textSize="20.0sp" android:textColor="@color/selector_button_text_wh" android:layout_gravity="center_horizontal" android:id="@id/submit" android:background="@drawable/selector_button_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minHeight="45.0dip" android:text="@string/login_signin_submit" />
+        <TextSwitcher android:id="@id/forgotPass" android:padding="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/login_signin_forgot" android:inAnimation="@anim/fade_in" android:outAnimation="@anim/fade_out">
+            <TextView android:textSize="15.0sp" android:gravity="center" android:id="@id/forgotPass1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="15.0sp" android:gravity="center" android:id="@id/forgotPass2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </TextSwitcher>
+    </LinearLayout>
+</ScrollView>

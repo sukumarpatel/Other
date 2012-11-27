@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekStartDaysNames">
+        <item>SÖN</item>
+        <item>MÅN</item>
+        <item>LÖR</item>
+    </string-array>
+    <integer-array name="weekStartDaysIds">
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="taskRepeat">
+        <item>en gång</item>
+        <item>en gång om dagen</item>
+        <item>en gång i veckan</item>
+        <item>en gång i månaden</item>
+    </string-array>
+    <integer-array name="taskRepeatValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="alarmOffset">
+        <item>av</item>
+        <item>precis</item>
+        <item>5 min innan</item>
+        <item>10 min innan</item>
+        <item>30 min innan</item>
+        <item>1 timme innan</item>
+    </string-array>
+    <integer-array name="alarmOffsetValues">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </integer-array>
+    <string-array name="months_short">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>Maj</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="autocomplete_recognized_actions">
+        <item>ring</item>
+        <item>träffa</item>
+        <item>prata med</item>
+        <item>prata med</item>
+        <item>sms:a</item>
+        <item>e-posta</item>
+        <item>e-posta</item>
+    </string-array>
+    <string-array name="autocomplete_suggested_actions">
+        <item>ring</item>
+        <item>träffa</item>
+        <item>sms:a</item>
+        <item>e-posta</item>
+    </string-array>
+    <string-array name="empty_list_strings">
+        <item>Grattis, du är klar!</item>
+        <item>Jippi! Du är klar!</item>
+        <item>Du är så fantastisk!</item>
+        <item>Jag är imponerad!</item>
+        <item>Fortsätt så!</item>
+        <item>Bra jobbat!</item>
+        <item>Har du superkrafter?</item>
+        <item>Hur lyckades du göra allt?</item>
+        <item>Fantastiskt, du är klar!</item>
+    </string-array>
+</resources>

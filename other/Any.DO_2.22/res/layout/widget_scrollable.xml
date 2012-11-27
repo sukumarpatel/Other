@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@dimen/widget_big_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_big_main_layout" android:background="@drawable/widget_bg_wh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/big_widget_header" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <ImageButton android:id="@id/micBtn" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/selector_mic_small_wh" style="@style/widget_big_button" />
+            <TextView android:gravity="center_vertical" android:id="@id/headerText" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="" android:layout_weight="1.0" style="@style/widget_big_group_title" />
+            <ImageButton android:id="@id/addBtn" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/selector_add_wh" style="@style/widget_big_button" />
+        </LinearLayout>
+        <ListView android:id="@id/widgetList" android:fadingEdge="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/selector_item_bg_wh" android:cacheColorHint="@null" android:divider="@null" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

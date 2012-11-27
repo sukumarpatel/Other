@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="date_put_ago_in_the_end">false</bool>
+    <bool name="is_rtl_language">true</bool>
+</resources>

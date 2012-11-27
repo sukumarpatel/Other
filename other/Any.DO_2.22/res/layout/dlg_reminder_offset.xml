@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/folderChooseLayout" android:background="?dlgBackground" android:layout_width="300.0dip" android:layout_height="fill_parent" android:minWidth="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/dialogTitle" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/reminder_dialog_title" android:drawableLeft="@drawable/alert_bell_idle" android:drawablePadding="5.0dip" style="?dlgTitle" />
+    <ListView android:id="@id/repeatingOccurences" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip" android:choiceMode="singleChoice" android:layout_weight="1.0" style="?anydoListStyle" />
+</LinearLayout>

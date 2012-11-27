@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekStartDaysNames">
+        <item>日曜日</item>
+        <item>月曜日</item>
+        <item>土曜日</item>
+    </string-array>
+    <integer-array name="weekStartDaysIds">
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="taskRepeat">
+        <item>一度</item>
+        <item>1日に1度</item>
+        <item>1週間に1度</item>
+        <item>1か月に1度</item>
+    </string-array>
+    <integer-array name="taskRepeatValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="alarmOffset">
+        <item>オフ</item>
+        <item>時間通り</item>
+        <item>５分前</item>
+        <item>10分前</item>
+        <item>30分前</item>
+        <item>1時間前</item>
+    </string-array>
+    <integer-array name="alarmOffsetValues">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </integer-array>
+    <string-array name="months_short">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="autocomplete_recognized_actions">
+        <item>電話</item>
+        <item>会う</item>
+        <item>話す</item>
+        <item>話す</item>
+        <item>テキスト</item>
+        <item>メール</item>
+        <item>メール</item>
+    </string-array>
+    <string-array name="autocomplete_suggested_actions">
+        <item>電話</item>
+        <item>会う</item>
+        <item>テキスト</item>
+        <item>メール</item>
+    </string-array>
+    <string-array name="empty_list_strings">
+        <item>おめでとうございます、完了しました！</item>
+        <item>イエイ！完了しました！</item>
+        <item>すばらしいです！</item>
+        <item>感動しました！</item>
+        <item>追いつく！</item>
+        <item>素晴しい！</item>
+        <item>スーパーパワーを持っていますか？</item>
+        <item>どうやって全部やったんですか？</item>
+        <item>驚きです、完了しました！</item>
+    </string-array>
+</resources>

@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="anydo_list_style.share_friends_list_bl" parent="@style/anydo_list_style">
+        <item name="android:paddingLeft">3.0dip</item>
+    </style>
+    <style name="anydo_list_style.list_style_bl" parent="@style/anydo_list_style">
+        <item name="android:divider">@null</item>
+    </style>
+    <style name="anydo_list_style.list_style_bl.done_list" parent="@style/anydo_list_style.list_style_bl">
+        <item name="android:background">?anydoDoneListBGColor</item>
+        <item name="android:cacheColorHint">?anydoDoneListBGColor</item>
+    </style>
+    <style name="dlg_button_bl">
+        <item name="android:textSize">26.0sp</item>
+        <item name="android:textColor">@color/dialog_button_text_bl</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="dlg_button_bl.dlg_big_button_bl" parent="@style/dlg_button_bl">
+        <item name="android:textSize">33.0sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="anydo_editbox_bl" parent="@*android:style/Widget.EditText">
+        <item name="android:textColor">?anydoGeneralTextColor</item>
+        <item name="android:textColorHint">?textboxHintTextColor</item>
+        <item name="android:background">@drawable/edittext_regular_bg_bl</item>
+        <item name="android:dropDownWidth">fill_parent</item>
+        <item name="android:dropDownHeight">fill_parent</item>
+        <item name="android:dropDownVerticalOffset">5.0dip</item>
+    </style>
+    <style name="anydo_editbox_bl.task_insert" parent="@style/anydo_editbox_bl">
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">100</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+    <style name="anydo_editbox_bl.task_insert.rounded" parent="@style/anydo_editbox_bl.task_insert">
+        <item name="android:background">@drawable/selector_edittext_rounded_bl</item>
+    </style>
+    <style name="anydo_button_bl">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/general_text_bl</item>
+        <item name="android:background">@null</item>
+        <item name="android:drawablePadding">5.0dip</item>
+    </style>
+    <style name="big_widget_group_date_bl">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ffcccccc</item>
+    </style>
+    <style name="big_widget_group_title_bl">
+        <item name="android:textSize">21.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ff0099cc</item>
+    </style>
+    <style name="anydo_list_style.share_friends_list_wh" parent="@style/anydo_list_style">
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+    </style>
+    <style name="anydo_list_style.list_style_wh" parent="@style/anydo_list_style">
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0.0px</item>
+    </style>
+    <style name="anydo_list_style.list_style_wh.done_list" parent="@style/anydo_list_style.list_style_wh">
+        <item name="android:background">?anydoDoneListBGColor</item>
+        <item name="android:cacheColorHint">?anydoDoneListBGColor</item>
+    </style>
+    <style name="dlg_button_wh">
+        <item name="android:textSize">26.0sp</item>
+        <item name="android:textColor">@color/dialog_button_text_wh</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="dlg_button_wh.dlg_big_button_wh" parent="@style/dlg_button_wh">
+        <item name="android:textSize">33.0sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="anydo_editbox_wh" parent="@*android:style/Widget.EditText">
+        <item name="android:textColor">?anydoGeneralTextColor</item>
+        <item name="android:textColorHint">?textboxHintTextColor</item>
+        <item name="android:background">@drawable/edittext_regular_bg_wh</item>
+        <item name="android:dropDownWidth">fill_parent</item>
+        <item name="android:dropDownHeight">fill_parent</item>
+        <item name="android:dropDownVerticalOffset">5.0dip</item>
+    </style>
+    <style name="anydo_editbox_wh.task_insert" parent="@style/anydo_editbox_wh">
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">100</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+    <style name="anydo_editbox_wh.task_insert.rounded" parent="@style/anydo_editbox_wh.task_insert">
+        <item name="android:background">@drawable/selector_edittext_rounded_wh</item>
+    </style>
+    <style name="anydo_button_wh">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/general_text_wh</item>
+        <item name="android:background">@null</item>
+        <item name="android:drawablePadding">5.0dip</item>
+    </style>
+    <style name="anydo_dialog" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/Animation.Dialog.FadeTransition</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="anydo_list_style">
+        <item name="android:fadingEdge">none</item>
+        <item name="android:listSelector">?itemSelector</item>
+        <item name="android:cacheColorHint">?anydoThemeColor</item>
+        <item name="android:divider">?anydoSeparatorColor</item>
+        <item name="android:dividerHeight">0.9dip</item>
+    </style>
+    <style name="anydo_progress_fullscreen_dialog" parent="@style/Theme.Anydo.White">
+        <item name="android:windowAnimationStyle">@style/Animation.Dialog.FadeTransition</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="notification_widget_height">
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="widget_big_group_date">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <style name="widget_big_group_title">
+        <item name="android:textSize">21.0sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <style name="widget_big_task_title">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="widget_big_task_exec">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <style name="widget_big_button">
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:paddingBottom">3.0dip</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="widget_big_task_complete_ok">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <style name="list_item_layout">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="list_item_title">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+    <style name="list_item_title_dnd">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">?anydoOpacityTextColor</item>
+    </style>
+    <style name="list_item_comment">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">?commentTextColor</item>
+    </style>
+    <style name="list_item_comment_dnd">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">?anydoOpacityTextColor</item>
+    </style>
+    <style name="list_item_group_title">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textColor">?listGroupTitleColor</item>
+    </style>
+    <style name="list_quickedit_layout">
+        <item name="android:background">?quickeditLayoutColor</item>
+    </style>
+    <style name="list_quickedit_button">
+        <item name="android:background">?itemSelector</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="list_exec_text">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?anydoExecutionColor</item>
+    </style>
+    <style name="list_edit_text">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?anydoGeneralTextColor</item>
+    </style>
+    <style name="done_list_item_title">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">?checkedListItemtTextColor</item>
+    </style>
+    <style name="done_list_item_comment">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">?checkedListItemtTextColor</item>
+    </style>
+    <style name="done_list_title">
+        <item name="android:textSize">40.0sp</item>
+    </style>
+    <style name="list_item_group_title.done_list_group_title" parent="@style/list_item_group_title">
+        <item name="android:textSize">26.0sp</item>
+    </style>
+    <style name="dlg_title">
+        <item name="android:textSize">43.0sp</item>
+        <item name="android:textColor">?dlgTitleColor</item>
+        <item name="android:paddingLeft">10.0dip</item>
+    </style>
+    <style name="dlg_text">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+    <style name="dlg_folder_item">
+        <item name="android:textSize">26.0sp</item>
+    </style>
+    <style name="pref_title">
+        <item name="android:textSize">30.0sp</item>
+    </style>
+    <style name="list_item_overflow_menu">
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">25.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:drawablePadding">5.0dip</item>
+    </style>
+    <style name="share_task_title">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+    <style name="share_task_comment">
+        <item name="android:textSize">13.0sp</item>
+    </style>
+    <style name="share_title">
+        <item name="android:textSize">43.0sp</item>
+        <item name="android:textColor">?dlgTitleColor</item>
+        <item name="android:paddingRight">10.0dip</item>
+    </style>
+    <style name="share_friend_name">
+        <item name="android:textSize">20.0sp</item>
+    </style>
+    <style name="share_via_method">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?dlgTitleColor</item>
+    </style>
+    <style name="share_back_button_text">
+        <item name="android:textSize">25.0sp</item>
+    </style>
+    <style name="share_center_text">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">?sharingCenterTextColor</item>
+    </style>
+    <style name="share_friends_list_text">
+        <item name="android:textSize">35.0sp</item>
+    </style>
+    <style name="NotificationText" parent="@*android:style/TextAppearance.StatusBar.EventContent" />
+    <style name="NotificationTitle" parent="@*android:style/TextAppearance.StatusBar.EventContent.Title" />
+    <style name="first_use_title">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textColor">@color/group_title_text_wh</item>
+    </style>
+    <style name="first_use_description">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/first_use_experience_desc_text_wh</item>
+    </style>
+    <style name="anydo_layout">
+        <item name="android:background">?anydoThemeColor</item>
+    </style>
+    <style name="anydo_time_picker">
+        <item name="android:textSize">100.0sp</item>
+    </style>
+    <style name="SplashScreen">
+        <item name="android:windowBackground">@*android:color/black</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Dialog.FadeTransition</item>
+        <item name="android:padding">0.0dip</item>
+    </style>
+    <style name="Widget.Holo.ProgressBar.Horizontal.White" parent="@*android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_holo_white</item>
+    </style>
+    <style name="PopDownMenuAnimation">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+    <style name="Theme" parent="@*android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="anydoAlignment">0x3</item>
+        <item name="anydoAlignmentCenter">0x13</item>
+    </style>
+    <style name="Theme.Anydo" parent="@style/Theme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Activity.SlideTransition</item>
+        <item name="anydoLayout">@style/anydo_layout</item>
+        <item name="anydoListStyle">@style/anydo_list_style</item>
+        <item name="anydoTimePicker">@style/anydo_time_picker</item>
+        <item name="listItemLayout">@style/list_item_layout</item>
+        <item name="listItemTitle">@style/list_item_title</item>
+        <item name="listItemTitleDND">@style/list_item_title_dnd</item>
+        <item name="listItemComment">@style/list_item_comment</item>
+        <item name="listItemCommentDND">@style/list_item_comment_dnd</item>
+        <item name="listExecText">@style/list_exec_text</item>
+        <item name="listEditText">@style/list_edit_text</item>
+        <item name="quickeditLayout">@style/list_quickedit_layout</item>
+        <item name="quickeditButton">@style/list_quickedit_button</item>
+        <item name="doneListItemTitle">@style/done_list_item_title</item>
+        <item name="doneListItemComment">@style/done_list_item_comment</item>
+        <item name="doneListTitle">@style/done_list_title</item>
+        <item name="doneListItemGroupTitle">@style/list_item_group_title.done_list_group_title</item>
+        <item name="listItemGroupTitle">@style/list_item_group_title</item>
+        <item name="shareTaskTitle">@style/share_task_title</item>
+        <item name="shareTaskComment">@style/share_task_comment</item>
+        <item name="shareTitle">@style/share_title</item>
+        <item name="shareFriendName">@style/share_friend_name</item>
+        <item name="shareViaMethod">@style/share_via_method</item>
+        <item name="shareCenterText">@style/share_center_text</item>
+        <item name="shareSendToFriendsText">@style/share_friends_list_text</item>
+        <item name="dlgTitle">@style/dlg_title</item>
+        <item name="dlgText">@style/dlg_text</item>
+        <item name="dlgFolderItem">@style/dlg_folder_item</item>
+        <item name="prefTitle">@style/pref_title</item>
+        <item name="firstUseTitle">@style/first_use_title</item>
+        <item name="firstUseDescription">@style/first_use_description</item>
+    </style>
+    <style name="Theme.Anydo.White" parent="@style/Theme.Anydo">
+        <item name="android:editTextStyle">@style/anydo_editbox_wh</item>
+        <item name="android:spinnerStyle">@style/anydo_editbox_wh</item>
+        <item name="android:textColor">@color/selector_general_text_wh</item>
+        <item name="anydoThemeColor">@color/theme_main_color_wh</item>
+        <item name="anydoGeneralTextColor">@color/general_text_wh</item>
+        <item name="anydoGrayColor">@color/group_metadata_wh</item>
+        <item name="anydoOpacityTextColor">@color/general_text_opacity_wh</item>
+        <item name="anydoDoneListBGColor">@color/done_list_bg_wh</item>
+        <item name="anydoSeparatorColor">@color/anydo_separator_wh</item>
+        <item name="anydoExecutionColor">@color/execution_text_wh</item>
+        <item name="explainTextColor">@color/explain_text_wh</item>
+        <item name="commentTextColor">@color/list_item_comment_text_wh</item>
+        <item name="quickeditLayoutColor">@color/quickedit_layout_bg_wh</item>
+        <item name="quickeditButtonTextColor">@color/quickedit_button_text_wh</item>
+        <item name="checkedListItemtTextColor">@color/list_item_checked_text_wh</item>
+        <item name="sharingCenterTextColor">@color/sharing_activity_center_text_wh</item>
+        <item name="warningColor">@color/warning_wh</item>
+        <item name="firstUXDescTextColor">@color/first_use_experience_desc_text_wh</item>
+        <item name="textboxHintTextColor">@color/textbox_hint_text_wh</item>
+        <item name="listGroupTitleColor">@color/group_title_text_wh</item>
+        <item name="listItemDndBg">@color/list_item_dnd_bg_wh</item>
+        <item name="listItemDndBgBorder">@color/list_item_dnd_bg_border_wh</item>
+        <item name="smallWidgetTickerColor">@color/small_widget_ticker_wh</item>
+        <item name="dateLinksTextColor">@color/date_links_text_wh</item>
+        <item name="progressBarBGColor">@color/progress_bar_bg_wh</item>
+        <item name="flatListColor">@color/flat_list_bg_wh</item>
+        <item name="dlgTitleColor">@color/dialog_title_wh</item>
+        <item name="dlgMissedCallTitleColor">@color/dialog_missed_call_title_wh</item>
+        <item name="dlgMissedCallCheckboxColor">@color/dialog_missed_call_checkbox_wh</item>
+        <item name="iconsColor">@color/icons_wh</item>
+        <item name="anydoButton">@style/anydo_button_wh</item>
+        <item name="anydoEditbox">@style/anydo_editbox_wh</item>
+        <item name="anydoEditboxTaskInsert">@style/anydo_editbox_wh.task_insert</item>
+        <item name="anydoEditboxRounded">@style/anydo_editbox_wh.task_insert.rounded</item>
+        <item name="listStyle">@style/anydo_list_style.list_style_wh</item>
+        <item name="itemSelector">@drawable/selector_item_bg_wh</item>
+        <item name="doneListStyle">@style/anydo_list_style.list_style_wh.done_list</item>
+        <item name="shareFriendsList">@style/anydo_list_style.share_friends_list_wh</item>
+        <item name="dlgBackground">@drawable/dialog_rounded_bg_wh</item>
+        <item name="dlgButton">@style/dlg_button_wh</item>
+        <item name="dlgBigButton">@style/dlg_button_wh.dlg_big_button_wh</item>
+        <item name="mainListHeader">@drawable/header_top_bg_wh</item>
+        <item name="micIcon">@drawable/selector_mic_wh</item>
+        <item name="addIcon">@drawable/selector_add_wh</item>
+        <item name="settingsIcon">@drawable/settings_btn_wh</item>
+        <item name="deleteIcon">@drawable/selector_delete_item_wh</item>
+        <item name="strikethrough">@drawable/strikethrough_wh</item>
+        <item name="xButton">@drawable/x_btn_wh</item>
+        <item name="menuBackground">@drawable/menu_bg_wh</item>
+        <item name="upButton">@drawable/up_title_wh</item>
+        <item name="upButtonDone">@drawable/up_title_black</item>
+        <item name="dateLinksBG">@drawable/date_links_bg_wh</item>
+    </style>
+    <style name="Theme.Anydo.White.Transparent" parent="@style/Theme.Anydo.White">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Theme.Anydo.Black" parent="@style/Theme.Anydo">
+        <item name="android:editTextStyle">@style/anydo_editbox_bl</item>
+        <item name="android:textColor">@color/selector_general_text_bl</item>
+        <item name="anydoThemeColor">@color/theme_main_color_bl</item>
+        <item name="anydoGeneralTextColor">@color/general_text_bl</item>
+        <item name="anydoGrayColor">@color/group_metadata_bl</item>
+        <item name="anydoOpacityTextColor">@color/general_text_opacity_bl</item>
+        <item name="anydoDoneListBGColor">@color/done_list_bg_bl</item>
+        <item name="anydoSeparatorColor">@color/anydo_separator_bl</item>
+        <item name="anydoExecutionColor">@color/execution_text_bl</item>
+        <item name="explainTextColor">@color/explain_text_bl</item>
+        <item name="commentTextColor">@color/list_item_comment_text_bl</item>
+        <item name="quickeditLayoutColor">@color/quickedit_layout_bg_bl</item>
+        <item name="quickeditButtonTextColor">@color/quickedit_button_text_bl</item>
+        <item name="checkedListItemtTextColor">@color/list_item_checked_text_bl</item>
+        <item name="sharingCenterTextColor">@color/sharing_activity_center_text_bl</item>
+        <item name="warningColor">@color/warning_bl</item>
+        <item name="firstUXDescTextColor">@color/first_use_experience_desc_text_bl</item>
+        <item name="textboxHintTextColor">@color/textbox_hint_text_bl</item>
+        <item name="listGroupTitleColor">@color/group_title_text_bl</item>
+        <item name="listItemDndBg">@color/list_item_dnd_bg_bl</item>
+        <item name="listItemDndBgBorder">@color/list_item_dnd_bg_border_bl</item>
+        <item name="smallWidgetTickerColor">@color/small_widget_ticker_bl</item>
+        <item name="dateLinksTextColor">@color/date_links_text_bl</item>
+        <item name="progressBarBGColor">@color/progress_bar_bg_bl</item>
+        <item name="flatListColor">@color/flat_list_bg_bl</item>
+        <item name="dlgTitleColor">@color/dialog_title_bl</item>
+        <item name="dlgMissedCallTitleColor">@color/dialog_missed_call_title_bl</item>
+        <item name="dlgMissedCallCheckboxColor">@color/dialog_missed_call_checkbox_bl</item>
+        <item name="iconsColor">@color/icons_bl</item>
+        <item name="anydoButton">@style/anydo_button_bl</item>
+        <item name="anydoEditbox">@style/anydo_editbox_bl</item>
+        <item name="anydoEditboxTaskInsert">@style/anydo_editbox_bl.task_insert</item>
+        <item name="anydoEditboxRounded">@style/anydo_editbox_bl.task_insert.rounded</item>
+        <item name="listStyle">@style/anydo_list_style.list_style_bl</item>
+        <item name="itemSelector">@drawable/selector_item_bg_bl</item>
+        <item name="doneListStyle">@style/anydo_list_style.list_style_bl.done_list</item>
+        <item name="shareFriendsList">@style/anydo_list_style.share_friends_list_bl</item>
+        <item name="dlgBackground">@drawable/dialog_rounded_bg_bl</item>
+        <item name="dlgButton">@style/dlg_button_bl</item>
+        <item name="dlgBigButton">@style/dlg_button_bl.dlg_big_button_bl</item>
+        <item name="mainListHeader">@drawable/header_top_bg_bl</item>
+        <item name="micIcon">@drawable/selector_mic_bl</item>
+        <item name="addIcon">@drawable/selector_add_bl</item>
+        <item name="settingsIcon">@drawable/settings_btn_bl</item>
+        <item name="deleteIcon">@drawable/selector_delete_item_bl</item>
+        <item name="strikethrough">@drawable/strikethrough_bl</item>
+        <item name="xButton">@drawable/x_btn_bl</item>
+        <item name="menuBackground">@drawable/menu_bg_bl</item>
+        <item name="upButton">@drawable/up_title_bl</item>
+        <item name="upButtonDone">@drawable/up_title_bl</item>
+        <item name="dateLinksBG">@drawable/date_links_bg_bl</item>
+    </style>
+    <style name="Theme.Anydo.Black.Transparent" parent="@style/Theme.Anydo.Black">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Animation.Activity.FadeTransition" parent="@*android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/dummy_transition</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade_out</item>
+    </style>
+    <style name="Animation.Activity.SlideTransition" parent="@*android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_slide_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_slide_to_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_slide_from_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_slide_to_right</item>
+    </style>
+    <style name="Animation.Dialog.FadeTransition" parent="@*android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+</resources>

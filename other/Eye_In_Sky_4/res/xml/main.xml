@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="mColorPicker"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Color Picker">
+        <Preference android:title="Show Dialog" android:key="dialog" android:summary="Show a color picker dialog built upon the custom color picker view." />
+        <Preference android:title="Show Activity" android:key="activity" android:summary="Show how the custom color picker can be used in a standard activity." />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Source Code">
+        <Preference android:title="Get Source Code" android:key="source_code" android:summary="http://code.google.com/p/color-picker-view/" />
+    </PreferenceCategory>
+</PreferenceScreen>

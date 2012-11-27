@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/reminderDlg" android:background="?dlgBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewAnimator android:id="@id/animator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inAnimation="@anim/fade_in" android:outAnimation="@anim/fade_out">
+            <ImageView android:id="@id/bellAnim" android:background="@drawable/alert_bell_anim_wh" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageButton android:id="@id/backButton" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/alert_back" />
+        </ViewAnimator>
+        <TextSwitcher android:id="@id/reminderTitle" android:paddingLeft="10.0dip" android:paddingRight="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:inAnimation="@anim/fade_in" android:outAnimation="@anim/fade_out" android:layout_weight="1.0">
+            <TextView android:textSize="36.0sp" android:textColor="?dlgMissedCallTitleColor" android:gravity="bottom|right|center" android:id="@id/reminderTitle1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/reminder_title" style="?dlgTitle" />
+            <TextView android:textSize="36.0sp" android:textColor="?dlgMissedCallTitleColor" android:gravity="bottom|right|center" android:id="@id/reminderTitle2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/reminder_title" style="?dlgTitle" />
+        </TextSwitcher>
+    </LinearLayout>
+    <ScrollView android:gravity="left" android:id="@id/scrollView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0">
+        <TextView android:ellipsize="none" android:gravity="left" android:id="@id/taskTitle" android:paddingLeft="23.0dip" android:paddingRight="23.0dip" android:layout_width="250.0dip" android:layout_height="wrap_content" android:scrollHorizontally="false" style="?dlgText" />
+    </ScrollView>
+    <View android:id="@id/alertActionSeperator" android:background="?anydoSeparatorColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <include android:id="@id/alertAction" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" layout="@layout/preference_reference" />
+    <View android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <include android:id="@id/alertSnooze" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" layout="@layout/preference_reference" />
+    <View android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <include android:id="@id/alertDone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" layout="@layout/preference_reference" />
+    <View android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <include android:id="@id/alertIgnore" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" layout="@layout/preference_reference" />
+</LinearLayout>

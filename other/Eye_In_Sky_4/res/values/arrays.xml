@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="temp_units">
+        <item>Celsius</item>
+        <item>Farenheit</item>
+    </string-array>
+    <string-array name="windspeed_units">
+        <item>km/h</item>
+        <item>mph</item>
+        <item>m/s</item>
+        <item>knots</item>
+    </string-array>
+    <string-array name="windspeed_units_values">
+        <item>KMPH</item>
+        <item>MPH</item>
+        <item>MPS</item>
+        <item>KNOTS</item>
+    </string-array>
+    <string-array name="rainfall_units">
+        <item>cm</item>
+        <item>mm</item>
+        <item>inches</item>
+    </string-array>
+    <string-array name="rainfall_units_values">
+        <item>CM</item>
+        <item>MM</item>
+        <item>INCHES</item>
+    </string-array>
+    <string-array name="widget_update_interval">
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>4 hours</item>
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>18 hours</item>
+        <item>24 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="widget_update_interval_values">
+        <item>0.5</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>12</item>
+        <item>18</item>
+        <item>24</item>
+        <item>100000</item>
+    </string-array>
+</resources>

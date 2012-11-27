@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?menuBackground" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/sortLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="left|center" android:background="?anydoSeparatorColor" android:layout_width="5.0dip" android:layout_height="0.9dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/menuSortDate" android:background="?itemSelector" android:paddingLeft="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/menu_date" android:drawableLeft="@drawable/menu_date" android:onClick="onSortMethodClick" style="@style/list_item_overflow_menu" />
+            <TextView android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+            <TextView android:id="@id/menuSortFolder" android:background="?itemSelector" android:paddingLeft="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/menu_folder" android:drawableLeft="@drawable/menu_folder" android:onClick="onSortMethodClick" style="@style/list_item_overflow_menu" />
+        </LinearLayout>
+        <View android:layout_gravity="bottom|left|center" android:id="@id/sortPicked" android:background="#ff0099cc" android:visibility="visible" android:layout_width="5.0dip" android:layout_height="48.0dip" />
+    </FrameLayout>
+    <TextView android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="1.5dip" />
+    <TextView android:id="@id/menuSync" android:background="?itemSelector" android:paddingLeft="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/menu_sync" android:drawableLeft="@drawable/menu_sync" android:onClick="onMenuClick" style="@style/list_item_overflow_menu" />
+    <TextView android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="0.9dip" android:layout_weight="1.0" />
+    <TextView android:id="@id/menuSettings" android:background="?itemSelector" android:paddingLeft="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/menu_settings" android:drawableLeft="@drawable/menu_settings" android:onClick="onMenuClick" style="@style/list_item_overflow_menu" />
+    <TextView android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <TextView android:id="@id/menuHelp" android:background="?itemSelector" android:paddingLeft="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/menu_help" android:drawableLeft="@drawable/menu_help" android:onClick="onMenuClick" style="@style/list_item_overflow_menu" />
+</LinearLayout>

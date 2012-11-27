@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?anydoLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="22.0dip" android:id="@id/loveAnydoBtn" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/feedback_love" android:layout_weight="1.0" style="?anydoButton" />
+    <View android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <LinearLayout android:gravity="center" android:id="@id/feedbackSend" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:textSize="22.0dip" android:id="@id/feedbackSendBtn" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/feedback_send" android:drawableTop="@drawable/feedback_send" style="?anydoButton" />
+    </LinearLayout>
+</LinearLayout>

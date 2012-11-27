@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.anydo.ui.LinearLayoutThatDetectsSoftKeyboard android:orientation="vertical" android:id="@id/notesLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?anydoLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/notesUpperPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/upButton" android:background="?itemSelector" android:paddingLeft="10.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="?upButton" android:scaleType="center" android:onClick="upButton" />
+        <TextView android:id="@id/notesTitle" android:paddingTop="2.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/notes" style="?shareTitle" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/shareHeader" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="7.0dip">
+        <ImageButton android:id="@id/btnVoiceRecognition" android:background="?micIcon" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:baselineAlignBottom="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <com.anydo.ui.auto_complete.TaskAutoCompleteTextView android:id="@id/contactTxt" android:paddingLeft="18.0dip" android:paddingRight="43.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="43.0dip" android:hint="@string/add_notes_hint" android:layout_weight="1.0" android:layout_toRightOf="@id/btnVoiceRecognition" android:layout_alignTop="@id/btnVoiceRecognition" android:layout_centerVertical="true" android:dropDownAnchor="@id/shareHeader" android:imeOptions="actionDone" style="?anydoEditboxRounded" />
+        <ImageView android:id="@id/btnAdd" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="?addIcon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <com.anydo.ui.CrossView android:id="@id/crossView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.anydo.ui.list.NotesListView android:id="@id/notesListView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:choiceMode="multipleChoice" style="?shareFriendsList" />
+    </com.anydo.ui.CrossView>
+</com.anydo.ui.LinearLayoutThatDetectsSoftKeyboard>

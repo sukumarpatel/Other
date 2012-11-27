@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/closest_city_container" android:background="#ff242424" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <View android:background="#11ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <TextView android:textColor="#ff888888" android:paddingLeft="10.0dip" android:paddingTop="7.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Closest Weather Station:" />
+        <TextView android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/closest_city" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:measureWithLargestChild="true" style="?android:attr/buttonBarStyle">
+        <Button android:textSize="14.0sp" android:layout_gravity="right" android:id="@id/done_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Add" android:maxLines="2" android:layout_weight="1.0" android:filterTouchesWhenObscured="true" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+    <com.google.android.maps.MapView android:id="@id/mapview" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_above="@id/buttons" android:layout_below="@id/closest_city_container" android:apiKey="0dwRQ_Bzx2Fw6ivZXB8Zkulxj8SgZyL0f-lQ6eg"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.anydo.ui.CachedWebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <FrameLayout android:layout_gravity="top" android:background="@null" android:layout_width="fill_parent" android:layout_height="4.0dip">
+        <ProgressBar android:id="@id/progressLoading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" android:maxHeight="4.0dip" android:indeterminate="true" android:minHeight="0.0dip" style="@android:style/Widget.ProgressBar.Horizontal" />
+    </FrameLayout>
+</FrameLayout>

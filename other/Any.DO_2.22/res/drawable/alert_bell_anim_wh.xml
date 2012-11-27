@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@id/alert_bell_anim_wh" android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="40" android:drawable="@drawable/alert_bell_anim_wh00" />
+    <item android:duration="40" android:drawable="@drawable/alert_bell_anim_wh01" />
+    <item android:duration="40" android:drawable="@drawable/alert_bell_anim_wh02" />
+    <item android:duration="40" android:drawable="@drawable/alert_bell_anim_wh03" />
+    <item android:duration="40" android:drawable="@drawable/alert_bell_anim_wh04" />
+    <item android:duration="40" android:drawable="@drawable/alert_bell_anim_wh05" />
+    <item android:duration="40" android:drawable="@drawable/alert_bell_anim_wh06" />
+    <item android:duration="40" android:drawable="@drawable/alert_bell_anim_wh07" />
+    <item android:duration="40" android:drawable="@drawable/alert_bell_anim_wh08" />
+    <item android:duration="40" android:drawable="@drawable/alert_bell_anim_wh09" />
+    <item android:duration="40" android:drawable="@drawable/alert_bell_anim_wh10" />
+    <item android:duration="40" android:drawable="@drawable/alert_bell_anim_wh11" />
+</animation-list>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="7.0dip" android:layout_width="fill_parent" android:layout_height="58.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="left" android:id="@id/menuItemTitle" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" style="?prefTitle" />
+    <ImageButton android:textSize="30.0sp" android:id="@id/menuItem_white" android:background="@null" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/circle_white_selected" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ImageButton android:textSize="30.0sp" android:id="@id/menuItem_black" android:background="@null" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="17.0dip" android:src="@drawable/circle_black_unselected" android:layout_toLeftOf="@id/menuItem_white" android:layout_centerVertical="true" />
+</RelativeLayout>

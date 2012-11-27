@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:anydo="http://schemas.android.com/apk/res/com.anydo">
+    <com.anydo.ui.preferences.MenuPreferenceCategory android:title="">
+        <com.anydo.ui.preferences.ReferencePreference android:key="gtaskAccounts" anydo:icon="@null" anydo:title="@string/sync_gtask_accounts" />
+        <com.anydo.ui.preferences.ReferencePreference android:key="gtaskSyncNow" anydo:icon="@null" anydo:title="@string/sync_gtask_sync_now" />
+    </com.anydo.ui.preferences.MenuPreferenceCategory>
+    <com.anydo.ui.preferences.MenuPreferenceCategory android:title="" android:key="udini" />
+</PreferenceScreen>

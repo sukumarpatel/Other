@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekStartDaysNames">
+        <item>الأحد</item>
+        <item>الإثنين</item>
+        <item>السبت</item>
+    </string-array>
+    <integer-array name="weekStartDaysIds">
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="taskRepeat">
+        <item>مرة واحدة</item>
+        <item>مرة يومياً</item>
+        <item>مرة أسبوعياً</item>
+        <item>مرة شهرياً</item>
+    </string-array>
+    <integer-array name="taskRepeatValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="alarmOffset">
+        <item>إنهاء</item>
+        <item>في الوقت المحدد</item>
+        <item>5 ق قبل الموعد</item>
+        <item>10 ق قبل الموعد</item>
+        <item>30 ق قبل الموعد</item>
+        <item>ساعة قبل الموعد</item>
+    </string-array>
+    <integer-array name="alarmOffsetValues">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </integer-array>
+    <string-array name="months_short">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>إبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+    <string-array name="autocomplete_recognized_actions">
+        <item>اتصال</item>
+        <item>اجتماع</item>
+        <item>الاتصال بـ</item>
+        <item>الاتصال بـ</item>
+        <item>النص</item>
+        <item>البريد</item>
+        <item>البريد الإلكتروني</item>
+    </string-array>
+    <string-array name="autocomplete_suggested_actions">
+        <item>اتصال</item>
+        <item>اجتماع</item>
+        <item>النص</item>
+        <item>البريد الإلكتروني</item>
+    </string-array>
+    <string-array name="empty_list_strings">
+        <item>تهانينا، لقد أتممت المهمة!</item>
+        <item>مرحى! لقد أتممت المهمة!</item>
+        <item>أنت رائع للغاية!</item>
+        <item>أسجل إعجابي!</item>
+        <item>استمر في العمل الجيد!</item>
+        <item>عمل رائع!</item>
+        <item>هل تمتلك قوى خارقة؟</item>
+        <item>كيف أنهيت كل هذا؟</item>
+        <item>رائع، لقد أتممت مهامك!</item>
+    </string-array>
+</resources>

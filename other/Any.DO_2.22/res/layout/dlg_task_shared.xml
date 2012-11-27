@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/taskSharedDialog" android:background="?dlgBackground" android:layout_width="300.0dip" android:layout_height="wrap_content" android:minWidth="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:gravity="bottom|right|center" android:id="@id/shared_task_text" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Jonny Cage shared a task with you:" />
+    <TextView android:textSize="20.0sp" android:gravity="bottom|right|center" android:id="@id/shared_task_title_text" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="280.0dip" android:maxHeight="72.0dip" android:text="This is a very long task that says you should feed tha cat and tha dog a call mom" />
+    <View android:id="@id/horizontal_divider" android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="0.9dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttons" android:layout_width="fill_parent" android:layout_height="73.0dip">
+        <com.anydo.ui.AutoResizeButton android:gravity="center" android:id="@id/leftBtn" android:background="@null" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="150.0dip" android:text="@string/Ignore_btn" android:singleLine="true" style="?dlgButton" />
+        <View android:background="?anydoSeparatorColor" android:layout_width="0.9dip" android:layout_height="fill_parent" />
+        <com.anydo.ui.AutoResizeButton android:gravity="center" android:id="@id/rightBtn" android:background="@null" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="150.0dip" android:text="@string/accept_btn" android:singleLine="true" style="?dlgBigButton" />
+    </LinearLayout>
+</LinearLayout>

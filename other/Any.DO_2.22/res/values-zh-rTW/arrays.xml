@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekStartDaysNames">
+        <item>日</item>
+        <item>一</item>
+        <item>六</item>
+    </string-array>
+    <integer-array name="weekStartDaysIds">
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="taskRepeat">
+        <item>一次</item>
+        <item>一天一次</item>
+        <item>一週一次</item>
+        <item>一個月一次</item>
+    </string-array>
+    <integer-array name="taskRepeatValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="alarmOffset">
+        <item>關</item>
+        <item>按時</item>
+        <item>5 分鐘以前</item>
+        <item>10 分鐘以前</item>
+        <item>30 分鐘以前</item>
+        <item>1 小時以前</item>
+    </string-array>
+    <integer-array name="alarmOffsetValues">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </integer-array>
+    <string-array name="months_short">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一</item>
+        <item>十二</item>
+    </string-array>
+    <string-array name="autocomplete_recognized_actions">
+        <item>電話</item>
+        <item>見面</item>
+        <item>打電話給</item>
+        <item>打電話給</item>
+        <item>簡訊</item>
+        <item>郵件</item>
+        <item>電子郵件</item>
+    </string-array>
+    <string-array name="autocomplete_suggested_actions">
+        <item>電話</item>
+        <item>見面</item>
+        <item>簡訊</item>
+        <item>電子郵件</item>
+    </string-array>
+    <string-array name="empty_list_strings">
+        <item>恭喜，幹得不錯！</item>
+        <item>哇塞！幹得漂亮！</item>
+        <item>太出色了！</item>
+        <item>印象深刻！</item>
+        <item>加油！</item>
+        <item>棒極啦！</item>
+        <item>你有超人智慧嗎？</item>
+        <item>你是怎麼做成的啊？</item>
+        <item>不可思議，你們真了不起！</item>
+    </string-array>
+</resources>

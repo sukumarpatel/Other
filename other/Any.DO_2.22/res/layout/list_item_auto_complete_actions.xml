@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/autoCompleteActions" android:background="?flatListColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/auto_complete_action_share_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <Button android:textSize="16.0sp" android:textColor="?anydoGeneralTextColor" android:layout_gravity="center" android:id="@id/auto_complete_action_share" android:background="@null" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:text="@string/autocomplete_action_share" android:drawableLeft="@drawable/autocomplete_share" android:drawablePadding="7.0dip" android:layout_centerVertical="true" />
+    </FrameLayout>
+    <View android:background="?anydoSeparatorColor" android:layout_width="0.9dip" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="7.0dip" />
+    <FrameLayout android:id="@id/auto_complete_action_remind_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <Button android:textSize="16.0sp" android:textColor="?anydoGeneralTextColor" android:layout_gravity="center" android:id="@id/auto_complete_action_remind" android:background="@null" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:text="@string/autocomplete_action_remind" android:drawableLeft="@drawable/autocomplete_reminder" android:drawablePadding="3.0dip" android:layout_centerVertical="true" />
+    </FrameLayout>
+    <View android:background="?anydoSeparatorColor" android:layout_width="0.9dip" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="7.0dip" />
+    <FrameLayout android:id="@id/auto_complete_action_add_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <Button android:textSize="16.0sp" android:textColor="?anydoGeneralTextColor" android:layout_gravity="center" android:id="@id/auto_complete_action_add" android:background="@null" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:text="@string/autocomplete_action_add" android:drawableLeft="@drawable/autocomplete_add" android:drawablePadding="7.0dip" android:layout_centerVertical="true" />
+    </FrameLayout>
+</LinearLayout>

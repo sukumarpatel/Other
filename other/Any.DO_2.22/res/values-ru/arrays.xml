@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekStartDaysNames">
+        <item>ВС</item>
+        <item>ПН</item>
+        <item>СУБ</item>
+    </string-array>
+    <integer-array name="weekStartDaysIds">
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="taskRepeat">
+        <item>один раз</item>
+        <item>раз в день</item>
+        <item>раз в неделю</item>
+        <item>раз в месяц</item>
+    </string-array>
+    <integer-array name="taskRepeatValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="alarmOffset">
+        <item>выкл.</item>
+        <item>точно вовремя</item>
+        <item>за 5 минут</item>
+        <item>за 10 минут</item>
+        <item>за 30 минут</item>
+        <item>за 1 час</item>
+    </string-array>
+    <integer-array name="alarmOffsetValues">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </integer-array>
+    <string-array name="months_short">
+        <item>Янв</item>
+        <item>Фев</item>
+        <item>Мар</item>
+        <item>Апр</item>
+        <item>Май</item>
+        <item>Июн</item>
+        <item>Июл</item>
+        <item>Авг</item>
+        <item>Сен</item>
+        <item>Окт</item>
+        <item>Ноя</item>
+        <item>Дек</item>
+    </string-array>
+    <string-array name="autocomplete_recognized_actions">
+        <item>позвонить</item>
+        <item>встретить</item>
+        <item>поговорить с</item>
+        <item>поговорить с</item>
+        <item>текстовое сообщение</item>
+        <item>эл. почта</item>
+        <item>эл. почта</item>
+    </string-array>
+    <string-array name="autocomplete_suggested_actions">
+        <item>позвонить</item>
+        <item>встретить</item>
+        <item>текстовое сообщение</item>
+        <item>эл. почта</item>
+    </string-array>
+    <string-array name="empty_list_strings">
+        <item>Поздравляем, все готово!</item>
+        <item>Класс! Все готово!</item>
+        <item>Вы такие потрясные!</item>
+        <item>Я впечатлён!</item>
+        <item>Так держать!</item>
+        <item>Отличная работа!</item>
+        <item>Вы, наверно, гений?</item>
+        <item>Как вы вообще это сделали?</item>
+        <item>Поразительно! Дело сделано!</item>
+    </string-array>
+</resources>

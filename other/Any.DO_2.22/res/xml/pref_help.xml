@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:anydo="http://schemas.android.com/apk/res/com.anydo">
+    <com.anydo.ui.preferences.MenuPreferenceCategory android:title="">
+        <com.anydo.ui.preferences.ReferencePreference android:key="seeTutorials" anydo:icon="@null" anydo:title="@string/help_tutorial" />
+        <com.anydo.ui.preferences.ReferencePreference android:key="feedback" anydo:icon="@null" anydo:title="@string/help_feedback" />
+        <com.anydo.ui.preferences.ReferencePreference android:key="about" anydo:icon="@null" anydo:title="@string/help_about" />
+    </com.anydo.ui.preferences.MenuPreferenceCategory>
+    <com.anydo.ui.preferences.MenuPreferenceCategory android:title="" android:key="udini" />
+</PreferenceScreen>

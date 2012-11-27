@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="10.0dip" />
+    <gradient android:startColor="@color/strikethrough_done_start_wh" android:endColor="@color/strikethrough_done_end_wh" />
+    <padding android:left="7.0dip" android:top="7.0dip" android:right="7.0dip" android:bottom="7.0dip" />
+</shape>

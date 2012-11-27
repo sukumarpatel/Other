@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="is_scrollable_widget_supported">false</bool>
+    <bool name="date_put_ago_in_the_end">true</bool>
+    <bool name="is_rtl_language">false</bool>
+</resources>

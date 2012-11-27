@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/line1" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentTop="true" />
+    <View android:id="@id/line2" android:background="#ff353535" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/line1" />
+    <FrameLayout android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/upgrade" android:background="#fffa7a4b" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="UPGRADE TO PRO — Remove ads and support development" />
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <ImageView android:id="@id/upgrade_close" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_close" android:scaleType="centerInside" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <com.google.ads.AdView android:id="@id/ad" android:background="@color/panel_darkest" android:layout_width="fill_parent" android:layout_height="wrap_content" ads:adUnitId="a14f7f42d18636c" ads:adSize="BANNER" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/content" android:background="@color/panel_dark" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_above="@id/footer" android:layout_below="@id/line2">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyleLarge" />
+        <TextView android:textSize="16.0sp" android:layout_gravity="center" android:id="@id/no_location_text" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Please add a location." android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/three_panels" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+            <FrameLayout android:id="@id/fragment_container_1" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <View android:background="#ff000000" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/fragment_container_2" android:background="@color/panel_dark" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:background="#ff000000" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/fragment_container_3" android:background="@color/panel_dark" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

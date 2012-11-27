@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sync_image" />
+    <ViewAnimator android:id="@id/animator" android:layout_width="fill_parent" android:layout_height="70.0dip" android:inAnimation="@anim/fade_in" android:outAnimation="@anim/fade_out">
+        <Button android:textSize="30.0sp" android:textColor="#ffffffff" android:id="@id/whats_new_sync_send_instructions" android:background="@drawable/whats_new_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/whats_new_sync_send" />
+        <FrameLayout android:background="@drawable/whats_new_button" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="true" style="@style/Widget.Holo.ProgressBar.Horizontal.White" />
+        </FrameLayout>
+        <com.anydo.ui.AutoResizeTextView android:textSize="30.0sp" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/invitationSent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/whats_new_sync_invitation_sent" />
+    </ViewAnimator>
+</LinearLayout>

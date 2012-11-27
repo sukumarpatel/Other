@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/root" android:background="@color/panel_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/left_panel" android:background="@drawable/background_tiled" android:layout_width="200.0dip" android:layout_height="fill_parent">
+        <View android:layout_gravity="right" android:background="@drawable/gradient_shadow_left_right" android:layout_width="20.0dip" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/ok_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <View android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffeeeeee" android:gravity="center" android:id="@id/ok" android:background="@drawable/row_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="Ok" />
+        </LinearLayout>
+        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_above="@id/ok_container" android:layout_alignParentTop="true">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/wallpaper" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/container" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <View android:background="#ffaaaaaa" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                    <LinearLayout android:orientation="vertical" android:background="@color/panel_dark" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/add_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/ic_actionbar_add" android:layout_alignParentRight="true" />
+                            <Spinner android:id="@id/locations_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/add_location" />
+                        </RelativeLayout>
+                        <Spinner android:id="@id/icon_sets_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+                        <RelativeLayout android:id="@id/text_color_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="3.0dip">
+                            <ImageView android:id="@id/text_color" android:background="@drawable/color_bg" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="4.0dip" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+                            <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/text_color_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:text="Text Color" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+                        </RelativeLayout>
+                        <View android:background="#40dddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+                        <RelativeLayout android:id="@id/bg_color_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="3.0dip">
+                            <ImageView android:id="@id/bg_color" android:background="@drawable/color_bg" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="4.0dip" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+                            <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/bg_color_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:text="Background Color" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+                        </RelativeLayout>
+                        <View android:background="#40dddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="5.0dip" />
+                        <CheckBox android:id="@id/show_current_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="9.0dip" android:text="Show Current Temperature" />
+                        <CheckBox android:id="@id/corners_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="9.0dip" android:text="Rounded Corners" />
+                        <CheckBox android:id="@id/edit_spot_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="9.0dip" android:text="Show Edit Dots" />
+                        <CheckBox android:id="@id/refresh_spot_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="9.0dip" android:text="Show Refresh" />
+                        <CheckBox android:id="@id/degrees_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="9.0dip" android:text="Show Degrees" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/right_panel" android:background="@drawable/background_tiled" android:layout_width="200.0dip" android:layout_height="fill_parent">
+        <View android:layout_gravity="left" android:background="@drawable/gradient_shadow_right_left" android:layout_width="20.0dip" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

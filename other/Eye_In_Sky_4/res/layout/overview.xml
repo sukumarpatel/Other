@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/main_scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/ad" android:layout_alignParentTop="true" android:layout_alignWithParentIfMissing="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_container" android:background="@color/panel_dark" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:background="@color/panel_medium" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/current_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip">
+                    <ImageView android:id="@id/current_icon" android:layout_width="125.0dip" android:layout_height="125.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" android:scaleType="centerInside" />
+                    <TextView android:textSize="64.0sp" android:textColor="#ffffffff" android:id="@id/current_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:includeFontPadding="false" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+                </LinearLayout>
+                <TextView android:textSize="36.0sp" android:textColor="@color/light_bright_blue" android:gravity="center_horizontal" android:id="@id/current_text" android:paddingLeft="10.0dip" android:paddingTop="0.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:lineSpacingExtra="5.0dip" />
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_temp" />
+                    <TextView android:textSize="13.0sp" android:textColor="#aac2e4f5" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HUMIDITY " android:singleLine="true" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+                    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ffc2e4f5" android:layout_gravity="center_vertical" android:id="@id/current_humidity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="1.0dip" android:src="@drawable/ic_wind" />
+                    <TextView android:textSize="13.0sp" android:textColor="#aac2e4f5" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="WIND " android:singleLine="true" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+                    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ffc2e4f5" android:layout_gravity="center_vertical" android:id="@id/current_wind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+                </LinearLayout>
+                <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="#ffcccccc" android:gravity="center" android:id="@id/error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Unable to fetch overview" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/current_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyleLarge" />
+        </FrameLayout>
+        <View android:background="#ff353535" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="5.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/forecasts_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/daily_forecast_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/daily_forcast_overview" />
+            <include android:id="@id/daily_forecast_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/daily_forcast_overview" />
+            <include android:id="@id/daily_forecast_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/daily_forcast_overview" />
+            <include android:id="@id/daily_forecast_4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/daily_forcast_overview" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

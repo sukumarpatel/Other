@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/yesNoDialog" android:background="?dlgBackground" android:layout_width="300.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/yesNoTitle" android:paddingLeft="23.0dip" android:paddingTop="10.0dip" android:paddingRight="23.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Udinic+Kahana = love" style="?dlgTitle" />
+    <ScrollView android:id="@id/scrollView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0">
+        <TextView android:ellipsize="none" android:layout_gravity="left" android:id="@id/yesNoText" android:paddingLeft="23.0dip" android:paddingRight="23.0dip" android:layout_width="290.0dip" android:layout_height="wrap_content" android:scrollHorizontally="false" style="?dlgText" />
+    </ScrollView>
+    <View android:id="@id/horizontal_divider" android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="0.9dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttons" android:layout_width="fill_parent" android:layout_height="73.0dip">
+        <com.anydo.ui.AutoResizeButton android:gravity="center" android:id="@id/leftBtn" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="145.0dip" android:text="@string/no" android:layout_weight="1.0" style="?dlgButton" />
+        <View android:background="?anydoSeparatorColor" android:layout_width="0.9dip" android:layout_height="fill_parent" />
+        <com.anydo.ui.AutoResizeButton android:gravity="center" android:id="@id/rightBtn" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="145.0dip" android:text="@string/yes" android:layout_weight="1.0" style="?dlgBigButton" />
+    </LinearLayout>
+</LinearLayout>

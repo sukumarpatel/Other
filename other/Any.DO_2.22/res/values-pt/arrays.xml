@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekStartDaysNames">
+        <item>DOM</item>
+        <item>SEG</item>
+        <item>SAB</item>
+    </string-array>
+    <integer-array name="weekStartDaysIds">
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="taskRepeat">
+        <item>Uma vez</item>
+        <item>Uma vez por dia</item>
+        <item>Uma vez por semana</item>
+        <item>Uma vez por mês</item>
+    </string-array>
+    <integer-array name="taskRepeatValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="alarmOffset">
+        <item>Desligado</item>
+        <item>A tempo</item>
+        <item>5 min antes</item>
+        <item>10 min antes</item>
+        <item>30 min antes</item>
+        <item>1 hora antes</item>
+    </string-array>
+    <integer-array name="alarmOffsetValues">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </integer-array>
+    <string-array name="months_short">
+        <item>Jan</item>
+        <item>Fev</item>
+        <item>Mar</item>
+        <item>Abr</item>
+        <item>Maio</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Agos</item>
+        <item>Set</item>
+        <item>Out</item>
+        <item>Nov</item>
+        <item>Dez</item>
+    </string-array>
+    <string-array name="autocomplete_recognized_actions">
+        <item>Ligar</item>
+        <item>Encontrar</item>
+        <item>Conversar com</item>
+        <item>Conversar com</item>
+        <item>texto</item>
+        <item>e-mail</item>
+        <item>e-mail</item>
+    </string-array>
+    <string-array name="autocomplete_suggested_actions">
+        <item>Ligar</item>
+        <item>Encontrar</item>
+        <item>texto</item>
+        <item>e-mail</item>
+    </string-array>
+    <string-array name="empty_list_strings">
+        <item>Parabéns, você terminou!</item>
+        <item>Woohoo! Você acabou!</item>
+        <item>Você é demais!</item>
+        <item>Estou impressionado!</item>
+        <item>Continue!</item>
+        <item>Bom trabalho!</item>
+        <item>Você tem superpoderes?</item>
+        <item>Como fez tudo isso?</item>
+        <item>Incrivel! Você terminou!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/panel_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@color/panel_medium" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_logo" />
+            <TextView android:textSize="40.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/logo_text" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_name" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+        </LinearLayout>
+        <View android:background="#11ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:paddingBottom="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="@color/blue_title" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="APPLICATION" />
+            <View android:background="@color/blue_title" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/version" android:paddingTop="20.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Version 12" />
+            <View android:background="#11ffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/rate" android:paddingTop="20.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Rate on Google Play" />
+            <View android:background="#11ffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/blue_title" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="DATA" />
+            <View android:background="@color/blue_title" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/data" android:paddingTop="20.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Custom Weather" />
+            <View android:background="#11ffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/blue_title" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="DEVELOPER" />
+            <View android:background="@color/blue_title" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:paddingTop="20.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Tim Clark" />
+            <View android:background="#11ffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/blog" android:paddingTop="20.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Blog" />
+            <View android:background="#11ffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/other_apps" android:paddingTop="20.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Other Applications" />
+            <View android:background="#11ffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

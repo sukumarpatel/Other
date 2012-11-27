@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/folderChooseLayout" android:background="?dlgBackground" android:layout_width="280.0dip" android:layout_height="wrap_content" android:minWidth="280.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="36.0sp" android:gravity="bottom|right|center" android:id="@id/title" android:paddingLeft="22.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/meeting_title" style="?dlgTitle" />
+    <TextView android:gravity="bottom|right|center" android:id="@id/meetingTitle" android:paddingLeft="22.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="15.0dip" android:text="udini is the man" style="?dlgText" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewAnimator android:id="@id/textSwitcher1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:inAnimation="@anim/slide_from_bottom" android:outAnimation="@anim/slide_to_top" android:layout_weight="1.0">
+            <EditText android:textSize="18.0sp" android:gravity="bottom" android:id="@id/takeaway1_1" android:background="@null" android:paddingLeft="22.0dip" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/meeting_hint1" android:imeOptions="actionDone" style="?anydoEditboxTaskInsert" />
+            <EditText android:textSize="18.0sp" android:gravity="bottom" android:id="@id/takeaway1_2" android:background="@null" android:paddingLeft="22.0dip" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/meeting_hint2" android:imeOptions="actionDone" style="?anydoEditboxTaskInsert" />
+        </ViewAnimator>
+        <FrameLayout android:id="@id/addButton1Wrapper" android:layout_width="58.0dip" android:layout_height="48.0dip">
+            <ImageButton android:layout_gravity="center" android:id="@id/addButton1" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?addIcon" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:background="?anydoSeparatorColor" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <include android:id="@id/ignore" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" layout="@layout/preference_reference" />
+</LinearLayout>

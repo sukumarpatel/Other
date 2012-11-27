@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewAnimator android:id="@id/view_animator" android:background="#ffffffff" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inAnimation="@anim/fade_in" android:outAnimation="@anim/fade_out">
+        <ImageView android:layout_gravity="center" android:id="@id/loading_logo" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/intro_logo" />
+        <com.anydo.ui.CachedWebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </ViewAnimator>
+    <FrameLayout android:layout_gravity="top" android:background="@null" android:layout_width="fill_parent" android:layout_height="4.0dip">
+        <ProgressBar android:id="@id/progressLoading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" android:maxHeight="4.0dip" android:indeterminate="true" android:minHeight="0.0dip" style="@android:style/Widget.ProgressBar.Horizontal" />
+    </FrameLayout>
+</FrameLayout>

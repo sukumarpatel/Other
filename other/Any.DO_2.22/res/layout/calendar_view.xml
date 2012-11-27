@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/calendarLayout" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:anydo="http://schemas.android.com/apk/res/com.anydo">
+    <RelativeLayout android:id="@id/calendarControl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/monthLeft" android:background="@null" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/arrow_left" android:layout_alignParentLeft="true" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="33.0dip" android:id="@id/monthText" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="33.0dip" android:id="@id/yearText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+        </LinearLayout>
+        <ImageButton android:id="@id/monthRight" android:background="@null" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/arrow_right" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <com.anydo.ui.calendar.CalendarMonthView android:id="@id/calendarView" android:layout_width="fill_parent" android:layout_height="wrap_content" anydo:defaultTime="9" />
+</LinearLayout>

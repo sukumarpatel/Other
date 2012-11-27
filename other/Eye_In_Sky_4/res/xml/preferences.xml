@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Units">
+        <ListPreference android:entries="@array/temp_units" android:title="Temperature" android:key="com_citc_weather_temperature_units" android:defaultValue="Celsius" android:dialogTitle="Temperature Units" android:entryValues="@array/temp_units" />
+        <ListPreference android:entries="@array/windspeed_units" android:title="Wind speed" android:key="com_citc_weather_windspeed_units" android:defaultValue="KMPH" android:dialogTitle="Wind Speed Units" android:entryValues="@array/windspeed_units_values" />
+        <ListPreference android:entries="@array/rainfall_units" android:title="Rainfall" android:key="com_citc_weather_rainfall_units" android:defaultValue="MM" android:dialogTitle="Rainfall/Snowfall Units" android:entryValues="@array/rainfall_units_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Widgets and Notification">
+        <ListPreference android:entries="@array/widget_update_interval" android:title="Update interval" android:key="com_citc_weather_widget_update_interval" android:defaultValue="4" android:dialogTitle="Update Interval" android:entryValues="@array/widget_update_interval_values" />
+        <CheckBoxPreference android:title="Weather notification" android:key="com_citc_weather_show_notification" android:defaultValue="false" />
+        <Preference android:title="Configure weather notification" android:key="com_citc_weather_configure_notification" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Miscellaneous">
+        <CheckBoxPreference android:title="Force English" android:key="com_citc_weather_english_only" android:summary="Ignore device language when fetching weather" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

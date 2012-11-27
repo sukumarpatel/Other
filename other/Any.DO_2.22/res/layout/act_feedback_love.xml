@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?anydoLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/feedbackRate" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:textSize="22.0dip" android:id="@id/feedbackRateBtn" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/feedback_rate" android:drawableTop="@drawable/feedback_rate" style="?anydoButton" />
+    </LinearLayout>
+    <View android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <LinearLayout android:gravity="center" android:id="@id/feedbackFacebook" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:textSize="22.0dip" android:id="@id/feedbackFacebookBtn" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/feedback_facebook" android:drawableTop="@drawable/feedback_share_fb" style="?anydoButton" />
+    </LinearLayout>
+    <View android:background="?anydoSeparatorColor" android:layout_width="fill_parent" android:layout_height="0.9dip" />
+    <LinearLayout android:gravity="center" android:id="@id/feedbackTwitter" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <Button android:textSize="22.0dip" android:id="@id/feedbackTwitterBtn" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/feedback_twitter" android:drawableTop="@drawable/feedback_share_twitter" style="?anydoButton" />
+    </LinearLayout>
+</LinearLayout>

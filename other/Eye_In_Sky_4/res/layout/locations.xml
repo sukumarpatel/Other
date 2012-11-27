@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/add_container" android:background="@color/panel_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <View android:background="@color/line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <ImageView android:id="@id/search_button" android:paddingLeft="5.0dip" android:paddingRight="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_actionbar_search" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <AutoCompleteTextView android:id="@id/city" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="5.0dip" android:hint="Enter City" android:singleLine="true" android:layout_toLeftOf="@id/search_button" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:inputType="textCapWords" android:imeOptions="actionSearch" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <View android:background="@color/line_heavy" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="12.0sp" android:textColor="#aa17ace4" android:gravity="center_horizontal" android:background="@color/panel_lightest" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="CURRENT LOCATION" />
+    <View android:background="@color/line_heavy" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/row_selector" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/current_default_location_icon" android:background="#dd17ace4" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_actionbar_location_searching" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffcccccc" android:layout_gravity="center_vertical" android:id="@id/location_current" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+    </LinearLayout>
+    <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <View android:background="@color/line_heavy" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="#aa17ace4" android:gravity="center_horizontal" android:background="@color/panel_lightest" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="SAVED LOCATIONS" />
+    <View android:background="@color/line_heavy" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:divider="@null" android:dividerHeight="0.0dip" android:choiceMode="multipleChoice" android:fastScrollEnabled="true" android:fadeScrollbars="true" />
+</LinearLayout>

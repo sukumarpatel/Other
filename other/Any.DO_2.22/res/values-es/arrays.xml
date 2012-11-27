@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekStartDaysNames">
+        <item>DOM</item>
+        <item>LU</item>
+        <item>SÁB</item>
+    </string-array>
+    <integer-array name="weekStartDaysIds">
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="taskRepeat">
+        <item>una vez</item>
+        <item>una vez al día</item>
+        <item>una vez a la semana</item>
+        <item>una vez al mes</item>
+    </string-array>
+    <integer-array name="taskRepeatValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="alarmOffset">
+        <item>no</item>
+        <item>a horario</item>
+        <item>5 min antes</item>
+        <item>10 min antes</item>
+        <item>30 min antes</item>
+        <item>1 hora antes</item>
+    </string-array>
+    <integer-array name="alarmOffsetValues">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </integer-array>
+    <string-array name="months_short">
+        <item>Ene</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Abr</item>
+        <item>Mayo</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Ago</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dic</item>
+    </string-array>
+    <string-array name="autocomplete_recognized_actions">
+        <item>llamar a</item>
+        <item>reunirse</item>
+        <item>hablar con</item>
+        <item>conversar con</item>
+        <item>enviar mensaje de texto</item>
+        <item>enviar correo</item>
+        <item>mandar mensaje</item>
+    </string-array>
+    <string-array name="autocomplete_suggested_actions">
+        <item>llamar a</item>
+        <item>reunirse</item>
+        <item>enviar mensaje de texto</item>
+        <item>mandar mensaje</item>
+    </string-array>
+    <string-array name="empty_list_strings">
+        <item>¡Felicitaciones!, has terminado</item>
+        <item>¡Bravo!, has terminado.</item>
+        <item>¡Eres tan impresionante!</item>
+        <item>¡Me has impresionado!</item>
+        <item>¡Sigue así!</item>
+        <item>¡Gran trabajo!</item>
+        <item>¿Tienes superpoderes?</item>
+        <item>¿Cómo hiciste todo eso?</item>
+        <item>¡Increíble, has terminado!</item>
+    </string-array>
+</resources>

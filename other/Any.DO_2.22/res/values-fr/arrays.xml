@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekStartDaysNames">
+        <item>DIM</item>
+        <item>LUN</item>
+        <item>SAM</item>
+    </string-array>
+    <integer-array name="weekStartDaysIds">
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="taskRepeat">
+        <item>une fois</item>
+        <item>une fois par jour</item>
+        <item>une fois par semaine</item>
+        <item>une fois par mois</item>
+    </string-array>
+    <integer-array name="taskRepeatValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="alarmOffset">
+        <item>désactivé</item>
+        <item>"à l'heure"</item>
+        <item>5 min avant</item>
+        <item>10 min avant</item>
+        <item>30 min avant</item>
+        <item>1 heure avant</item>
+    </string-array>
+    <integer-array name="alarmOffsetValues">
+        <item>-1</item>
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </integer-array>
+    <string-array name="months_short">
+        <item>Jan</item>
+        <item>Fév</item>
+        <item>Mar</item>
+        <item>Avr</item>
+        <item>Mai</item>
+        <item>Juin</item>
+        <item>Juil</item>
+        <item>Août</item>
+        <item>Sept</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Déc</item>
+    </string-array>
+    <string-array name="autocomplete_recognized_actions">
+        <item>appeler</item>
+        <item>rencontrer</item>
+        <item>parler à</item>
+        <item>parler à</item>
+        <item>envoyer un sms</item>
+        <item>envoyer un courrier</item>
+        <item>envoyer un e-mail</item>
+    </string-array>
+    <string-array name="autocomplete_suggested_actions">
+        <item>appeler</item>
+        <item>rencontrer</item>
+        <item>envoyer un sms</item>
+        <item>envoyer un e-mail</item>
+    </string-array>
+    <string-array name="empty_list_strings">
+        <item>Félicitations, vous avez fini !</item>
+        <item>Wahou ! Vous avez fini !</item>
+        <item>Vous êtes tellement génial(e) !</item>
+        <item>Je suis impressionné !</item>
+        <item>Continuez !</item>
+        <item>Excellent travail !</item>
+        <item>Avez-vous des supers pouvoirs ?</item>
+        <item>Comment avez-vous réussi à tout faire ?</item>
+        <item>Incroyable, vous avez fini !</item>
+    </string-array>
+</resources>
